@@ -9,10 +9,11 @@ body {
   position: relative;
   margin-left: auto;
   margin-right:auto;
-  width: 500px;
+  width: 100vw;
+  min-width: 380px;
   height: 850px;
   box-sizing: border-box;
-  padding: 20px 30px;
+  padding: 40px 30px;
   text-align: center;
   align-items: center;
   border: solid 5px yellow;
