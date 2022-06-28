@@ -9,15 +9,14 @@ body {
   position: relative;
   margin-left: auto;
   margin-right:auto;
+  height: 180vh;
   width: 100vw;
   min-width: 380px;
-  height: 850px;
   box-sizing: border-box;
   padding: 40px 30px;
   text-align: center;
   align-items: center;
-  border: solid 8px yellow;
-  border-radius: 20px;
+  border: solid 5px yellow;
   background: var(--backgrond-color);
 }
 .container {
@@ -41,7 +40,10 @@ h2 {
 .image img {
   margin-left: auto;
   margin-right: auto;
-  height:300px;
+  height:12em;
+  border-radius: 10px;
+  filter:brightness(70%);
+  margin-bottom: 15px;
 }
 .navigation {
   box-sizing: border-box;
@@ -54,13 +56,10 @@ p {
   color: var(--background-color-fonte);
   font-size: 1.5em;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 a {
   text-decoration: none;
-}
-img {
-  margin-left: 15px;
 }
 .footer {
   box-sizing: border-box;
@@ -69,9 +68,27 @@ img {
   justify-content: center;
 }
 .footer h3 {
+  position: relative;
+  margin-right:auto;
+  margin-left: auto;
   background: var(--background-color-fonte);
   border-radius:10px;
   width: 200px;
   padding: 5px;
   box-sizing: border-box;
+}
+section {
+  display: flex;
+  flex-direction: column;
+}
+#rodape li {
+  text-align:left;
+  line-height: 30px;
+  color: yellow;
+  font-size: 1.2em;
+  position: relative;
+  top: 150px;
+}
+#rodape h3 {
+  color: yellow;
 }
