@@ -36,6 +36,7 @@ h2 {
 }
 .container p {
   text-transform: none;
+  text-decoration: none;
 }
 .container img {
   margin-bottom: 40px;
@@ -60,6 +61,8 @@ p {
   font-size: 1.5em;
   text-transform: uppercase;
   margin-bottom: 30px;
+  text-decoration: underline 5px yellow;
+
 }
 a {
   text-decoration: none;
@@ -105,4 +108,8 @@ ul {
 }
 #rodape h3 {
   color: yellow;
+}
+#rodape p {
+  text-decoration: none;
+  margin-top: 40px;
 }
