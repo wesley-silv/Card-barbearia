@@ -61,6 +61,10 @@ p {
 a {
   text-decoration: none;
 }
+.navigation img:hover{
+  height: 70px;
+  width: 70px;
+}
 .footer {
   box-sizing: border-box;
   margin:10px 0;
@@ -77,17 +81,24 @@ a {
   padding: 5px;
   box-sizing: border-box;
 }
+.footer h3:hover {
+  font-size: 1.4em;
+  color: red;
+  font-style: italic;
+}
 section {
   display: flex;
   flex-direction: column;
 }
+ul {
+  margin-top: 50px;
+}
 #rodape li {
-  text-align:left;
+
+  text-align:justify;
   line-height: 30px;
   color: yellow;
-  font-size: 1.2em;
-  position: relative;
-  top: 150px;
+  font-size: 1.5em;
 }
 #rodape h3 {
   color: yellow;
